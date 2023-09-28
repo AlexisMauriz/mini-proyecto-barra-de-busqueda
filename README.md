@@ -116,3 +116,66 @@ Esta regla define el estilo de la entrada de texto dentro de la barra de búsque
 Estas reglas definen el estilo para las acciones en la barra de búsqueda, como los botones. Se utiliza flexbox para organizarlos y se establecen estilos de botón y de cambio de color al pasar el cursor sobre ellos.
 
 Este documento proporciona una descripción detallada de las reglas CSS utilizadas en el código proporcionado, lo que facilita la comprensión y la edición del estilo de la página web.
+
+Aquí tienes una documentación en formato Markdown para el código HTML proporcionado:
+
+````markdown
+# Documentación HTML para la Barra de Búsqueda
+
+El siguiente documento HTML describe la estructura de una página web simple que incluye una barra de búsqueda. Se utiliza la biblioteca de iconos "Material Icons" y un archivo CSS externo llamado "style.css" para dar estilo a la barra de búsqueda.
+
+## Cabecera HTML
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barra de Búsqueda</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+</html>
+```
+````
+
+- `<!DOCTYPE html>`: Declaración del tipo de documento HTML.
+- `<html lang="en">`: Elemento raíz del documento con atributo de idioma "en" (inglés).
+- `<head>`: Encabezado del documento que contiene metadatos y enlaces a recursos externos.
+- `<meta charset="UTF-8" />`: Especifica la codificación de caracteres UTF-8.
+- `<meta http-equiv="X-UA-Compatible" content="IE=edge" />`: Configura el modo de compatibilidad con Internet Explorer.
+- `<meta name="viewport" content="width=device-width, initial-scale=1.0" />`: Define la escala inicial y el ancho de la ventana de visualización.
+- `<title>Barra de Búsqueda</title>`: Establece el título de la página.
+- `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />`: Enlace a la fuente de iconos "Material Icons".
+- `<link rel="stylesheet" href="style.css" />`: Enlace al archivo CSS externo "style.css".
+
+## Cuerpo HTML
+
+```html
+<body>
+  <div class="search-bar">
+    <input type="text" />
+    <div class="actions">
+      <button><span class="material-icons"> mic </span></button>
+      <button><span class="material-icons"> document_scanner </span></button>
+      <button><span class="material-icons"> search </span></button>
+    </div>
+  </div>
+</body>
+</html>
+```
+
+- `<body>`: El cuerpo del documento HTML que contiene el contenido visible de la página.
+- `<div class="search-bar">`: Un contenedor div que representa la barra de búsqueda.
+- `<input type="text" />`: Un campo de entrada de texto en la barra de búsqueda.
+- `<div class="actions">`: Un contenedor div que agrupa los botones de acción.
+- `<button><span class="material-icons"> mic </span></button>`: Un botón con un ícono de micrófono.
+- `<button><span class="material-icons"> document_scanner </span></button>`: Un botón con un ícono de escáner de documentos.
+- `<button><span class="material-icons"> search </span></button>`: Un botón con un ícono de búsqueda.
+
+Este documento Markdown proporciona una descripción estructurada del código HTML y sus elementos, lo que facilita la comprensión de la estructura y los componentes de la página web de la barra de búsqueda.
